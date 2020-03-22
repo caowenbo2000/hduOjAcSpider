@@ -8,6 +8,6 @@
 4拉取个人界面中找到本次所提交的题目 然后判定自己是否通过
 # 介绍:
 1.main.py是主函数  
-2.spiper.py是功能函数
+2.spiper.py是功能函数  
 目前ac了两百多道题目
 ![图片](http://caowenbo.top/wp-content/uploads/2020/03/2020-03-22-20-36-33%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
