@@ -1,12 +1,14 @@
 import spider
 #循环所有题目
-problemStart = 1156
+problemStart = 1319
 problemEnd   = 6000
 
-noexitlist = {1125,1126,1127,1132,1135,1136,1137,1138,1139,1167,1168,1169,1184,1185,1186,1187,1188,1189,1190,1191,1192,1193}
-
+cur = open('curproId.txt',mode='r+')
+str = cur.read()
+problemStart = int(str)
 for Problem in range(problemStart,problemEnd):
     #搜索1页链接
-    if Problem in noexitlist:
-        continue
+    cur = open('curproId.txt', mode='w+')
+    print(Problem,file=cur)
+    cur.flush()
     spider.getCsdnUrl(Problem,2);
